@@ -9,15 +9,19 @@ public class Cpifp {
     private List<Departamentos> listaDepartamentos = new ArrayList<Departamentos> ();
 
     public void añadirEstudiante(final Estudiantes estudiante) {
+
     }
 
     public void añadirDepartamento(final Departamentos departamento) {
+
     }
 
     public void quitarEstudiante(final Estudiantes estudiante) {
+
     }
 
     public void quitarDepartamento(final Departamentos departamento) {
+        
     }
 
     public Estudiantes getEstudiante(final String identificador) {

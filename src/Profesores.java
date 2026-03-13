@@ -7,6 +7,7 @@ public class Profesores {
     private List<Modulo> listaModulos = new ArrayList<Modulo> ();
     private Departamentos listaDepartamentos;
     private Departamentos esJefe;
+    
     public Departamentos getEsJefe() {
         // Automatically generated method. Please delete this comment before entering specific code.
         return this.esJefe;

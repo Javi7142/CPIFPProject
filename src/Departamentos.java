@@ -9,9 +9,11 @@ public class Departamentos {
     private Profesores jefe;
 
     public void añadirProfesor(final Profesores profesor) {
+
     }
 
     public void quitarProfesor(final Profesores profesor) {
+
     }
 
     public Profesores getProfesor(final String nombre) {
