@@ -5,7 +5,7 @@ public class Modulo {
     private String nombre;
     private String identificador;
     private List<Profesores> listaProfesores = new ArrayList<Profesores> ();
-    private Departamentos listaDepartamentos;
+    private Departamentos departamento;
     private List<Estudiantes> listaEstudiantes = new ArrayList<Estudiantes> ();
 
     public List<Profesores> getListaProfesores() {
@@ -16,16 +16,6 @@ public class Modulo {
     public void setListaProfesores(final List<Profesores> value) {
         // Automatically generated method. Please delete this comment before entering specific code.
         this.listaProfesores = value;
-    }
-
-    public Departamentos getListaDepartamentos() {
-        // Automatically generated method. Please delete this comment before entering specific code.
-        return this.listaDepartamentos;
-    }
-
-    public void setListaDepartamentos(final Departamentos value) {
-        // Automatically generated method. Please delete this comment before entering specific code.
-        this.listaDepartamentos = value;
     }
 
 }
